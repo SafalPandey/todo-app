@@ -1,0 +1,28 @@
+.Todo-list {
+  margin: 0 auto;
+  background-color: #d2d2d2;
+  width: 80%;
+  padding: 70px 30px 10px 30px;
+}
+
+.TodoWrapper{
+  display: table;
+  margin: 0 auto;
+}
+
+
+.Todo-list-header {
+  background-color: #0288D1;
+  height: 50px;
+  line-height: 50px;
+  padding: 5px;
+  color: white;
+}
+
+.Todo-list-title {
+  font-size: 1.5em;
+}
+
+.Todo-list-intro {
+  font-size: large;
+}

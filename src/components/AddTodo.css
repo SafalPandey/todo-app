@@ -1,0 +1,19 @@
+.AddTodo {
+  background-color: #03A9F4;
+  margin: 10px 5px;
+  color: #fff;
+  height: 50px;
+  width: 70px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: gray;
+  border-radius: 10px;
+  z-index: 3;
+  position: fixed;
+  top:0;
+  right: 20px;
+  transition: all 0.5s ease-in;
+}
+.AddTodo:hover {
+  background-color: #000;
+}

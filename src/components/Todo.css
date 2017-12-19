@@ -1,0 +1,39 @@
+.Todo {
+  margin: 10px;
+  background-color: #03A9F4;
+  border-radius: 5px;
+  width: 30%;
+  min-width: 250px;
+  padding: 0 0 15px 0;
+  position: relative;
+  top: 0;
+  /* float: left; */
+  display: inline-table;
+  overflow: hidden;
+  }
+
+.Todo-title {
+  background-color: #0288D1;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Todo-intro {
+  font-size: large;
+  padding: 0 20px;
+  color: #212121;
+}
+
+.Todo .EditTodo, .Todo .DeleteTodo {
+  right: -100px;
+}
+.Todo:hover .EditTodo{
+  right: 80px;
+}
+.Todo:hover .DeleteTodo {
+  right: 0;
+}
